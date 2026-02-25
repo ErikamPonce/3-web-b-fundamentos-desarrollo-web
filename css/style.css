@@ -1,0 +1,56 @@
+
+h1{
+    border-radius: 30px;
+}
+
+.bg-agua{
+    background-color: aqua;
+}
+
+.color-blue{
+    color: rgb(6, 84, 210);
+}
+
+#destacados{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.form-registro .datos-persona .input-nombre{
+  padding: 10px;
+  border-radius: 8px;
+}
+/*Solo cambia de color cuando estemos en (focus)*/
+.form-registro .datos-persona .input-nombre:focus{
+  border: 2px solid tomato !important;
+  background-color: antiquewhite;
+}
+
+button{
+  display: inline-block;
+}
+button:hover{
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  transition-duration: .5s;
+}
+/* hacer bloques
+button{
+    display: block;
+}
+    hacerlo en linea
+p{
+    display: inline;
+}
+
+    al dar clic, cambia de color el boton
+button:hover{
+    background-color: tomato;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+
+}
+*/ 
