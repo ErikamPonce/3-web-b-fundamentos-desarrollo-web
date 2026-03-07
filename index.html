@@ -1,14 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clases de CSS</title>
+
 </head>
+
 <body>
-    <a href="/01/css/index.html">clase 1: Introduccionón a CSS</a> <br>
-    <a href="/02-propiedades-basicas-css/index.html">Clse 2: Propiedades basicas del CSS</a> <br>
-    <a href="/03-herencia/index.html">Clase 3: Herencia</a> <br>
-    <a href="/04-into-flexbox/index.html">Clase 4: Intro a Flexbox</a> <br>
+
+<div class="contenedor">
+
+<h1>Clases de CSS</h1>
+
+<a href="./01/01-introduccion-css/index.html">Clase 1: Introducción a CSS</a>
+
+<a href="./02-propiedades-basicas-css/index.html">
+Clase 2: Propiedades básicas de CSS
+</a>
+
+<a href="./03-herencia-css/index.html">
+Clase 3: Herencia
+</a>
+
+<a href="./04-into-flexbox/index.html">
+Clase 4: Introducción a Flexbox
+</a>
+
+</div>
+
 </body>
 </html>
+
+<!--estilos-->
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#4facfe);
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    background:rgb(124, 117, 117);
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:25px;
+}
+
+a{
+    display:block;
+    text-decoration:none;
+    background:#4facfe;
+    color:white;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+a:hover{
+    background:#04c585;
+    transform:scale(1.05);
+}
+
+</style>
