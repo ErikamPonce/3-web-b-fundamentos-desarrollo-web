@@ -7,28 +7,91 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Intro a Flexbox🫡</h1>
 
-    <div class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
+    <!-- practica -->
+    <section class="flexbox-demo">
+
+        <h1>Intro a Flexbox 🫡</h1>
+        <div class="container-flex">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+    </section>
+
+    <!--entregable -->
+    <section class="flashcards">
+  <div class="content">
+
+<div class="main">
+
+    <div class="filter-bar">
+
+        <div class="filters">
+            <select>
+                <option>All Categories</option>
+                <option>HTML</option>
+                <option>CSS</option>
+            </select>
+
+            <label>
+                <input type="checkbox">
+                Hide Mastered
+            </label>
+        </div>
+        <button class="shuffle">🔀 Shuffle</button>
     </div>
 
-    <h1>Ejercisio práctico Flexbox</h1>
-  <header>
-    <div class="logo">FlashCard</div>
-    <div class="botones">
-      <button>Study mode</button>
-      <button>All cards</button>
-    </div>
-  </header>
+    <div class="card">
 
-  <main>
-    <div class="main-content"></div>
-    <div class="statistics"></div>
-  </main>
-    
+        <span class="tag">Web Development</span>
+        <h2>What does HTML stand for?</h2>
+        <p class="hint">Click to reveal answer</p>
+
+        <div class="progress">
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button class="know">I Know This</button>
+        <button class="reset">Reset Progress</button>
+    </div>
+
+
+    <!-- NAVEGACIÓN -->
+    <div class="navigation">
+        <button>⬅ Previous</button>
+        <span>Card 1 of 40</span>
+        <button>Next ➡</button>
+    </div>
+
+</div>
+
+<aside class="stats">
+    <h3>Study Statistics</h3>
+    <div class="stat-box">
+        <p>Total Cards</p>
+        <h2>40</h2>
+    </div>
+
+    <div class="stat-box green">
+        <p>Mastered</p>
+        <h2>11</h2>
+    </div>
+
+    <div class="stat-box pink">
+        <p>In Progress</p>
+        <h2>21</h2>
+    </div>
+
+    <div class="stat-box purple">
+        <p>Not Started</p>
+        <h2>8</h2>
+    </div>
+</aside>
+</div>
+</section>
 </body>
 </html>
