@@ -1,0 +1,117 @@
+body{
+    background-color: aqua;
+    /*Color de texto*/
+    color: black;
+}
+.p{
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#miParrafo{
+    /*important: *Es una forma de decirle al navegador que esta propiedad es más importante que cualquier otra, incluso si tiene una especificidad menor. Sin embargo, su uso excesivo puede dificultar el mantenimiento del código CSS.*/
+    color: green;
+}
+
+
+h1.pacifico-regular {
+  font-family: "Pacifico", cursive, systm-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Ejemplo posicionamiento*/
+.parent {
+    background-color: lightgreen;
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    /*se queda en la esquina derecha inferior(fixed)*/
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+    /*sticky funciona para mantener el elemento visible al scrollear, es decir: el elemento se fijara cuando llegue a su posición
+    position: sticky;
+    top: 0;*/
+}
+
+.parent h1 {
+    position: absolute;
+    font-size: 4.5rem;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+}
+
+.parent img {
+    position: absolute;
+}
+.orange {
+    right: 0%;
+    top: 7%;
+    z-index: 1;
+}
+.parent .leaf {
+    bottom: 18%;
+    left: -3%;
+    z-index: 3;
+    transform: rotate(-32deg);
+}
+
+/*Tarjeta css*/
+/*body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+}*/
+
+.tarjeta{
+    width:320px;
+    height:250px;
+    margin:auto;
+    position:relative;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.imagen{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    z-index:1;
+}
+
+.etiqueta{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:#ff4757;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    font-size:14px;
+    z-index:3;
+}
+
+.info{
+    position:absolute;
+    bottom:0;
+    background:rgba(0,0,0,0.7);
+    color:white;
+    width:100%;
+    padding:15px;
+    z-index:2;
+}
+
+/*boton explorar*/
+.info button{
+    background:#ffa502;
+    border:none;
+    padding:8px 12px;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
