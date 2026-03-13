@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    color: saddlebrown;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1000px;
+    margin: auto;
+
+    padding: 20px;
+    /* background-color: aquamarine; */
+
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* LOGO */
+
+.logo{
+    font-size: 30px;
+}
+
+/* NAV */
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(15, 215, 182);
+}
+
+/* UBICACIÓN */
+
+.location a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BOTONES */
+
+.auth-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-inicio{
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.btn-unete{
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+}
+
+.main-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 30%;
+    background-color: rgb(16, 247, 174);
+    color: white;
+    padding: 120px 0;
+}
+
+.auth-buttons-main{
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons-main .btn-inicio{
+  filter: invert();
+}
+
+.auth-buttons-main .btn-unete{
+  filter: invert();
+}
+
+.main-end{
+  flex-grow: 1;
+}
+
+.section-start h1{
+    font-size: 40px;
+}
+
+.products{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 900px;
+    margin: auto; 
+}
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+}
+.benefits{
+    margin-top: 40px;
+    background-color: rgb(202, 199, 199);
+    text-align: center;
+}
+.benefits img{
+    width: 200px;
+}
+
+
+
+
+
+/* 
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px;
+  background-color: blueviolet;
+  border: 2px solid rgb(140, 42, 42);
+  width: 600px;
+  height: 500px;
+}
+.box {
+    /*centrados*/
+/* display: flex;
+align-items: center;
+justify-content: center;
+
+  width: 40%;
+  height: 100px;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.tres {
+    background-color: lightcoral;
+    align-self: flex-end; 
+}*/
