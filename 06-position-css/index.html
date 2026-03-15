@@ -1,42 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Position CSS</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <!-- header -->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stardew Valley Farm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar">
-            <a href="#home">Inicio</a>
-            <a href="#services">Servicios</a>
-            <a href="#about">Nosotros</a>
-            <a href="#contact">Contacto</a>
-        </nav>
-    </header>  
+      <nav class="navbar">
+        <a href="#">🏡 Inicio</a>
+        <a href="#">🌾 Cultivos</a>
+        <a href="#">🐓 Animales</a>
+        <a href="#">📩 Contacto</a>
+      </nav>
+    </header>
 
-    <!-- Escena del juego -->
     <div class="game-container">
-        <img src="./img/fondo.jpg" alt="angry-birds-video-games" class="bg-game">
-        <img src="#" alt="">
-        <div class="equis">✖️</div>
-        <h1 class="game-title">ANGRY BIRDS</h1>
-        <div class="bird bird-1"></div>
-        <div class="bird bird-2"></div>
-        <button class="btn-play">Play</button>
-        <div class="btn-config-game">
-            <button class="btn-setting">🔩</button>
-            <button class="btn-world">🌐</button>
-            <button class="btn-menu">☰</button>
-        </div>
+      <img src="./img/stardewvalley.jpg" class="bg-game" />
+      <div class="close">❌</div>
+      <h1 class="game-title">STARDEW FARM</h1>
+
+      <!-- elementos decorativos (sustitutos por figuras) -->
+      <div class="item item-1">🌻</div>
+      <div class="item item-2">🐔</div>
+      <button class="btn-play">🌱 Comenzar Día</button>
+      <div class="btn-config-game">
+        <button>🎒</button>
+        <button class="btn-world">🗺</button>
+        <button>⚙</button>
+      </div>
     </div>
 
-    <!-- Footer de Cookies -->
     <div class="cookie-footer">
-        <p>Este sitio utiliza cookies para mejorar la experiencia. <a href="#cookies-policy">Más información</a>.</p>
-        <button class="cookie-accept">Aceptar</button>
+      <p>Este sitio usa cookies para mejorar tu granja digital.</p>
+      <button>Aceptar</button>
     </div>
-</body>
+  </body>
 </html>
