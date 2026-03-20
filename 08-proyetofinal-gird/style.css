@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: grid;
+  /* Repeat (4, 1fr) nos sirve para crear 4 columnas de igual tamaño. Tambien podemos utilizar fr,px,em,rem, %, auto (1fr 1fr 1fr) en forma horizontal */
+  grid-template-columns: 100px auto 100px;
+  /* Nos funciona solo para las filas (vertical)*/
+  grid-template-rows: 2fr 1fr 1fr;
+  align-content: start;
+  gap: 15px;
+
+
+  /* Visual */
+  background-color: blueviolet;
+  border: 2px solid rgb(140, 42, 42);
+  width: 600px;
+  height: 500px;
+}
+
+
+
+.box {
+        display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  width: 40%;
+  /* height: 100px; */
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.seis {
+font-size: 2rem;
+  /* grid-column sirve para especificar la columna. Es decir, en qué columna se ubicará el elemento */
+  grid-column: 2 / 3;
+  /* grid-row sirve para especificar la fila. Es decir, en qué fila se ubicará el elemento */
+  grid-row: 2 / 4;
+  background-color: green;
+}
+
+.siete {
+
+    /* grid-column sirve para especificar la columna. Es decir, en qué columna se ubicará el elemento */
+    grid-column: 1 / 3;
+    /* grid-row sirve para especificar la fila. Es decir, en qué fila se ubicará el elemento */
+    grid-row: 3 / 4;
+  background-color: red;
+}
