@@ -9,7 +9,6 @@
   grid-template-columns: 100px auto 100px;
   grid-template-rows: 2fr 1fr 1fr;
   gap: 15px;
-
   width: 600px;
   height: 500px;
   background-color: #2c2f4a;
@@ -57,9 +56,6 @@
 }
 
 
-
-
-
 .box:nth-child(4) {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -74,24 +70,14 @@
   width: 48%;
 }
 
-/*el 3 debe de estar más pequeño que el 6*/
-.box:nth-child(3) {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
-}
-
-.box:nth-child(6) {
-  grid-column: 3 / 4;
-  grid-row: 2 / 4;
-
-}
-
-
 .box:nth-child(7) {
   grid-column: 2 / 3;
   grid-row:  3 / 4;
   justify-self: start;
+  /* 600px */
   width: 48%;
+  /* 500px  */
+
 }
 
 .box:nth-child(8) {
@@ -100,3 +86,18 @@
   justify-self: end;
   width: 48%;
 }
+
+/*el 3 debe de estar más pequeño que el 6*/
+.box.tres {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  
+}
+
+.box.seis{
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+
+
+

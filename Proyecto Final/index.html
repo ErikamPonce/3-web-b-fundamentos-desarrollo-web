@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav id="top">
+    <div class="nav-inner">
+ 
+      <a href="#top" class="nav-logo">
+        🌱 CSS Harvest
+        <span>Curso de CSS · Stardew Valley Edition</span>
+      </a>
+ 
+      <ul class="nav-links">
+        <li><a href="#semanas">Semanas</a></li>
+        <li><a href="#progreso">Progreso</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#diario">Diario</a></li>
+      </ul>
+ 
+      <!-- Barra de progreso del curso al fondo del navbar -->
+      <div class="nav-progreso"></div>
+    </div>
+  </nav>
+
+  <header class="hero" >
+
+    <!-- Animacion de flotacion  -->
+     <img src="./img/logo.png" alt="logo" class="hero-emoji">
+ 
+    <h1>🌿 CSS <span>Harvest</span> 🌿<br/> Curso Completo de CSS</h1>
+    <p>"Tu granja de conocimiento CSS está floreciendo"</p>
+ 
+    <!-- Estadísticas rápidas del curso -->
+    <div class="hero-stats">
+
+      <div class="stat-box">
+        <strong>8</strong>
+        <span>Semanas</span>
+      </div>
+      <div class="stat-box">
+        <strong>30</strong>
+        <span>Lecciones</span>
+      </div>
+      <div class="stat-box">
+        <strong>90%% <!-- Bromita bromita🫡 --></strong>
+        <span>Completado</span>
+      </div>
+      <div class="stat-box">
+        <strong>8</strong>
+        <span>Prácticas</span>
+      </div>
+    </div>
+ 
+    <!-- Botones de acción para visualizra emanas y mi progreso -->
+    <div class="hero-btns">
+      <a href="#semanas" class="btn btn-primario"> Ver Semanas</a>
+      <a href="#progreso" class="btn btn-secundario">Mi Progreso</a>
+    </div>
+  </header>
+
+
+  <main>
+ 
+    <!--Semanas de cursos-->
+    <section id="semanas">
+ 
+      <div class="seccion-titulo">
+        <h2>Semanas del Curso</h2>
+      </div>
+ 
+      <!-- creacion de cuadros con información-->
+      <div class="semanas-grid">
+ 
+        <!-- SEMANA 1 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 01</small>
+            <h3>Fundamentos y <br />Primeras Semillas</h3>
+            <span class="card-icono">🌱</span>
+            <div class="barra-progreso">
+                <!-- El style marca cuánto se ha completado, y lo podemos ajustar segun nuestro %-->
+              <div class="barra-relleno" style="width: 80%"></div>
+            </div>
+          </div>
+          <!-- Semana 1 -->
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Intro a CSS</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Selectores CSS</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Displays</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Hover</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>5 / 5 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 2 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 02</small>
+            <h3>Box Model y <br />El Suelo de la Granja</h3>
+            <span class="card-icono">📦</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Propiedades básicas</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Box Model</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">box-sizing</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>4 / 4 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 3 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 03</small>
+            <h3>Herencia y <br />Raíces del Estilo</h3>
+            <span class="card-icono">🌿</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Herencia</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Especificidad</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Fuentes</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>4 / 4 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 4 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 04</small>
+            <h3>Flexbox y <br />Riego Flexible</h3>
+            <span class="card-icono">🚿</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Flexbox</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Flexbox Parte 2</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Position (5 tipos)</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>4 / 4 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 5 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 05</small>
+            <h3>Centrado y<br />Alineación del Huerto</h3>
+            <span class="card-icono">🎯</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Centrado</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Multilínea</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Alineaciones específicas</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>4 / 4 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 6 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 06</small>
+            <h3>Navbar, z-index y <br />Las Capas del Campo</h3>
+            <span class="card-icono">🏡</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Navbar y Footer</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Casos prácticos</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">z-index</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Media Queries</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>5 / 5 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 7 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 07</small>
+            <h3>Responsive y <br />Cosecha en Todos los Campos</h3>
+            <span class="card-icono">📱</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">¿Qué es Responsive?</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Media Queries Teoría</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Media Queries Práctica</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Práctica Final</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>4 / 4 lecciones</span>
+              <span class="badge completa">✅ Completa</span>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- Semana 8 -->
+        <article class="card">
+          <div class="card-header">
+            <small>SEMANA 08</small>
+            <h3>Grid y<br />La Gran Cosecha Final</h3>
+            <span class="card-icono">🌻</span>
+            <div class="barra-progreso">
+              <div class="barra-relleno" style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="lecciones">
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Grid (introducción)</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion hecha">
+                <span class="leccion-icono verde">✓</span>
+                <span class="leccion-nombre">Revisión de conceptos</span>
+                <span class="etiqueta teoria">Teoría</span>
+              </li>
+              <li class="leccion progreso">
+                <span class="leccion-icono amarillo">⏳</span>
+                <span class="leccion-nombre">Plantillas dinámicas</span>
+                <span class="etiqueta teoria">Próximo</span>
+              </li>
+              <li class="leccion pendiente">
+                <span class="leccion-icono gris">🔒</span>
+                <span class="leccion-nombre">Práctica Final</span>
+                <span class="etiqueta practica">Práctica</span>
+              </li>
+            </ul>
+            <div class="card-resumen">
+              <span>2 / 4 lecciones</span>
+              <span class="badge en-curso">⏳ En curso</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+ 
+ 
+    <!-- Divisor decorativo entre secciones -->
+    <div class="divisor">Ahhhh 🌾</div>
+ 
+ 
+    <!-- ── PANEL DE PROGRESO ─────────────────── -->
+    <section id="progreso">
+      <div class="panel-progreso">
+ 
+        <h2>Panel del Granjero </h2>
+        <p>Tu progreso en la temporada de CSS</p>
+ 
+        <!-- Métricas en CSS Grid -->
+        <div class="metricas">
+          <div class="metrica">
+            <strong>75%</strong>
+            <span> Completado</span>
+          </div>
+          <div class="metrica">
+            <strong>22</strong>
+            <span> Lecciones</span>
+          </div>
+          <div class="metrica">
+            <strong>7</strong>
+            <span> Semanas </span>
+          </div>
+          <div class="metrica">
+            <strong>1</strong>
+            <span>En curso</span>
+          </div>
+          <div class="metrica">
+            <strong>2</strong>
+            <span>Pendiente</span>
+          </div>
+          <div class="metrica">
+            <strong>750</strong>
+            <span>Experiencia Ganada</span>
+          </div>
+        </div>
+ 
+        <!-- Barra de experiencia -->
+        <p class="xp-label">EXPERIENCIA · NIVEL 7 → NIVEL 8</p>
+        <div class="xp-barra">
+          <div class="xp-relleno">750 / 1000 XP</div>
+        </div>
+ 
+      </div>
+    </section>
+ 
+ 
+    <div class="divisor">Siiiii 🌸</div>
+ 
+ 
+    <!-- ── SKILLS DESBLOQUEADAS ──────────────── -->
+    <section id="skills">
+      <h2 class="skills-titulo">🎒 Habilidades Desbloqueadas</h2>
+ 
+      <!-- Chips con Flexbox wrap -->
+
+        <div class="chips">
+        <span class="chip"> Selectores CSS</span>
+        <span class="chip"> Box Model</span>
+        <span class="chip"> Display</span>
+        <span class="chip"> Box Sizing</span>
+        <span class="chip"> Herencia</span>
+        <span class="chip"> Especificidad</span>
+        <span class="chip"> Fuentes Google</span>
+        <span class="chip"> Flexbox</span>
+        <span class="chip"> Position</span>
+        <span class="chip"> Centrado</span>
+        <span class="chip"> Alineaciones</span>
+        <span class="chip"> Navbar / Footer</span>
+        <span class="chip"> z-index</span>
+        <span class="chip"> Media Queries</span>
+        <span class="chip"> Responsive Design</span>
+        <span class="chip"> CSS Grid</span>
+        <span class="chip"> Grid Templates</span>
+      </div>
+    </section>
+ 
+ 
+    <div class="divisor">📖</div>
+ 
+ 
+    <!-- ── DIARIO DEL GRANJERO ───────────────── -->
+    <section id="diario">
+      <div class="diario">
+ 
+        <h2>Diario del Granjero</h2>
+        <p>Notas y reflexiones del camino aprendido</p>
+ 
+        <!-- Grid de notas tipo post-it -->
+        <div class="notas-grid">
+          <div class="nota">
+            <div class="emoji">💡</div>
+            <p><strong>box-sizing: border-box</strong> fue lo que más me costó entender, pero ahora no puedo vivir sin él en todo proyecto.</p>
+          </div>
+          <div class="nota">
+            <div class="emoji">🚿</div>
+            <p>Flexbox es como el riego automático: una vez que lo configuras bien, todo fluye solo. <strong>justify-content</strong> y <strong>align-items</strong> son mis mejores amigos.</p>
+          </div>
+          <div class="nota">
+            <div class="emoji">📐</div>
+            <p>La especificidad es como el orden de la cosecha: los IDs pesan más que las clases, que pesan más que los elementos.</p>
+          </div>
+          <div class="nota">
+            <div class="emoji">📱</div>
+            <p>Media Queries son la magia del responsive. Con <strong>max-width</strong> adaptas tu granja a cualquier pantalla del mundo.</p>
+          </div>
+        </div>
+ 
+      </div>
+    </section>
+ 
+  </main>
+ 
+ 
+  <!-- ==========================================
+       FOOTER — cierre de la página
+  =========================================== -->
+  <footer>
+    <div class="footer-grid">
+ 
+      <!-- Columna: descripción -->
+      <div class="footer-marca">
+        <h2>🌱 CSS Harvest<br />Stardew Valley Edition</h2>
+        <p>Un portafolio del aprendizaje de CSS construido con amor, selectores y mucho café. Inspirado en la granja más famosa del mundo pixelado.</p>
+      </div>
+ 
+      <!-- Columna: semanas -->
+      <div class="footer-col">
+        <h3>Semanas</h3>
+        <ul>
+          <li><a href="#semanas">Semana 1 — Fundamentos</a></li>
+          <li><a href="#semanas">Semana 2 — Box Model</a></li>
+          <li><a href="#semanas">Semana 3 — Herencia</a></li>
+          <li><a href="#semanas">Semana 4 — Flexbox</a></li>
+          <li><a href="#semanas">Semana 5 — Centrado</a></li>
+          <li><a href="#semanas">Semana 6 — Navbar</a></li>
+          <li><a href="#semanas">Semana 7 — Responsive</a></li>
+          <li><a href="#semanas">Semana 8 — Grid</a></li>
+        </ul>
+      </div>
+ 
+      <!-- Columna: recursos -->
+      <div class="footer-col">
+        <h3>Recursos</h3>
+        <ul>
+          <li><a href="#skills">Skills desbloqueadas</a></li>
+          <li><a href="#progreso">Mi progreso</a></li>
+          <li><a href="#diario">Diario del granjero</a></li>
+          <li><a href="#top">Volver al inicio ↑</a></li>
+        </ul>
+      </div>
+ 
+    </div>
+ 
+    <div class="footer-bar">
+      <p>🌾 CSS Harvest · Hecho con ❤️ y selectores</p>
+      <p>Inspirado en Stardew Valley por ConcernedApe</p>
+    </div>
+  </footer>
+ 
+ 
+  <!-- Botón para volver al inicio -->
+  <a href="#top" class="scroll-top" aria-label="Volver al inicio">⬆</a>
+ 
+</body>
+</html>
+</html>
